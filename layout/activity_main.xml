@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:background="#A09B9B"
+        android:text="Contacts App"
+        app:titleTextColor="#FCF8F8">
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/my_FirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="100dp"
+        android:text="First Name"
+        android:textColor="#000000"></TextView>
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/edt1"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        ></EditText>
+    <TextView
+        android:id="@+id/my_LastName"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="200dp"
+        android:text="Last Name"
+        android:textColor="#000000"></TextView>
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/edt2"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        ></EditText>
+    <TextView
+        android:id="@+id/my_ContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="300dp"
+        android:text="Contact Number"
+        android:textColor="#000000"></TextView>
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/edt3"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="120dp"
+        ></EditText>
+    <TextView
+        android:id="@+id/my_EmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="400dp"
+        android:text="Email Address"
+        android:textColor="#000000"></TextView>
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/edt4"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/add"
+        android:layout_height="32dp"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Image"
+        android:background="#2883CA"
+        android:textColor="#FAF7F7"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/save"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:background="#2883CA"
+        android:text="Save"
+        android:textColor="#FAF7F7"></Button>
+
+
+</RelativeLayout>
